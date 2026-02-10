@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asta+Sans&family=Didact+Gothic&family=Gamja+Flower&family=Nova+Square&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poiret+One&family=Schoolbell&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<style>
+    body {
+        background-color: #f5efc7;
+        text-align: center;
+        font-family: 'Gamja Flower', sans-serif;
+        font-size: 40px;
+        color: #b06527;
+    }
+
+    .cat{
+        display: inline-block;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .pop-text {
+  /* Initial state */
+  margin-top: 70px;
+  font-size: 60px;
+  transform: scale(1);
+  animation: pop 1s ease-in-out forwards; /* Apply the 'pop' animation */
+    
+}
+.modal-body {
+        font-size: 20px;
+        font-style: italic;
+        text-align:left;
+    }
+.modal {
+    color: rgb(76, 69, 66);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.modal-content {
+    padding: 30px;
+    background-color: #fbe6e4;
+    border-radius: 13%;
+}
+.modal-header {
+    border-bottom: none;
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.5); /* Start small */
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5); /* Pop out larger than normal */
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1); /* Settle at normal size */
+  }
+}
+
+
+</style>
+<h1 class="pop-text">Happy Birthday!</h1>
+<div class="cat">
+<img src="catgift.gif" data-toggle="modal" data-target="#modalCat1">
+<p>Click me!</p>
+</div>
+<div class="cat">
+<img src="catgift.gif" data-toggle="modal" data-target="#modalCat2">
+<p>Click me!</p>
+</div>
+<p>Check your email :)</p>
+<!-- Modal -->
+<div class="modal fade" id="modalCat1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Job 12:12-13</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p>Wisdom is with the aged, and understanding in length of days. <br> With God are wisdom and might; he has counsel and understanding.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalCat2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Proverbs 31:28-30</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p>Her children rise up and call her blessed; her husband also, and he praises her:<br>"Many women have done excellently, but you surpass them all."<br>
+        Charm is deceitful, and beauty is vain; but a woman who fears the LORD is to be praised.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
